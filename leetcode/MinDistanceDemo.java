@@ -1,3 +1,5 @@
+package leetcode;
+
 /**
  * 72. 编辑距离
  * 给定两个单词 word1 和 word2，计算出将 word1 转换成 word2 所使用的最少操作数 。
@@ -47,3 +49,4 @@ public class MinDistanceDemo {
         return p_ij[word1Length][word2Length];
     }
 }
+
